@@ -155,13 +155,13 @@
 // Write a JS program to calculate and print how many days are left until 31 December of the current year.
 
 //program 20
-var number=prompt("enter any number ")
-function random(max){
-   var print=Math.floor(Math.random()* max)+1
-    console.log("thr random numbesr is ",random)
+// var number=prompt("enter any number ")
+// function random(max){
+//    var print=Math.floor(Math.random()* max)+1
+//     console.log("thr random numbesr is ",random)
 
-}
-random(max)
+// }
+// random(max)
 
 
 
