@@ -94,10 +94,63 @@
 
 // program 12
 // 12. Write a JS program to create a function that takes a sentence and replaces a user given word with another word.
-alert("you can change the word the word in para")
-var paragraph=("Biryani cooked in a special way.")
-var replace=prompt("put the word you want to change" )
-var value=prompt("put the you want to see")
+// var text="Biryani cooked in a special way."
+// alert("you can change  in a para :" +text)
+// var replace=prompt("put the word that you want to change")
+// var find=prompt("put the word that you want to change with this:")
+// text=text.replace(replace,find);
+// console.log("replace value is",text)
+
+// program 13
+// 13. Write a JS program to print the current date and time using the Date object.
+
+// var date=new Date();
+// console.log("the current date is :",date)
+// var currentDate=date .getDate();
+// console.log("The curent date is ",currentDate)
+// var time =date.getTime()
+// console.log("The current time is :",time)
+
+// program 14
+// 14. Write a JS program to print the current year, month, and day separately using getFullYear, getMonth, and getDate.
+
+// var date=new Date();
+// console.log("the current date is :",date)
+// var currentMonth=date.getMonth()
+// var month=['january','febraury','march','april','may','june','july','august','september','oct','nov','dec']
+// console.log("The curent month is ",month[currentMonth])
+// var currentyear=date.getFullYear()
+// console.log("The curent year is :" ,currentyear)
+// var currentDate=date .getDate();
+// console.log("The curent date is ",currentDate)
+
+// program 15
+// 15. Write a JS program to create a date object and set its year to 2030 using setFullYear.
+
+// var date=new Date();
+// console.log("the currnt time is ",date)
+// var futureYear=date.getFullYear();
+// console.log("the year in 2030",futureYear)
+
+// program 16
+// var date=new Date()
+// console.log("THe current  date is ",date)
+// var BDY=8-november-2026
+// var newBDY=BDY.getDate();
+// console.log("the user date is ", newBDY)
+
+// program 17
+// var date=new Date();
+// var userDate = "Oct 17,2000";
+//  var userBrdy=new Date(userDate);
+// var userMilliSec=userBrdy.getTime()
+// console.log("the user milli sec is" ,userMilliSec)
+// var currentMilliSec=date.getTime();
+// console.log("total muili sec from 1970 to now ",currentMilliSec)
+//  var difference=currentMilliSec-userMilliSec
+//    var age=difference/1000/60/60/24/365
+//  console.log("user age is " ,Math.floor(age))
+ 
 
 
 
