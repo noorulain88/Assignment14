@@ -151,6 +151,18 @@
 //    var age=difference/1000/60/60/24/365
 //  console.log("user age is " ,Math.floor(age))
  
+// program 18
+// Write a JS program to calculate and print how many days are left until 31 December of the current year.
+
+//program 20
+var number=prompt("enter any number ")
+function random(max){
+   var print=Math.floor(Math.random()* max)+1
+    console.log("thr random numbesr is ",random)
+
+}
+random(max)
+
 
 
 
