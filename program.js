@@ -3,7 +3,7 @@
 // 1. Write a JS program to replace the first occurrence of the word "apple" with "green apple" using the replace method.
 
 // var fruit="apple"
-// replaceValue=fruit.replace("apple","redApple");
+//  var replaceValue=fruit.replace("apple","GreenApple");
 // console.log("I like",replaceValue)
 
 // progrma 02
@@ -133,11 +133,12 @@
 // console.log("the year in 2030",futureYear)
 
 // program 16
-// var date=new Date()
-// console.log("THe current  date is ",date)
-// var BDY=8-november-2026
-// var newBDY=BDY.getDate();
-// console.log("the user date is ", newBDY)
+var date=new Date()
+console.log("THe current  date is ",date)
+var BDY="nov 8,2026";
+var newBDY= new Date(BDY)
+
+console.log("the user date is ", newBDY)
 
 // program 17
 // var date=new Date();
@@ -153,6 +154,29 @@
  
 // program 18
 // Write a JS program to calculate and print how many days are left until 31 December of the current year.
+var date=new Date();
+var currentDate=date.getDate()
+console.log("the curent date is ",currentDate)
+var givenDate=31
+var difference=givenDate-currentDate
+console.log("the remainig date 31 to is ",difference)
+
+// program 19
+// 19. Write a JS program to create a function that returns the maximum of three numbers.
+// var num1=1
+// // var num2=2
+// // var num3=3
+// // function Number(){
+// //     if(num1<num2){
+// //         console.log("the maximum number b/w num1 and num2 is ")
+// //     }
+// //         if(num1<num){
+// //         console.log("the maximum number b/w num1 and num2 is ")
+// //     }
+// // }
+
+
+
 
 //program 20
 // var number=prompt("enter any number ")
